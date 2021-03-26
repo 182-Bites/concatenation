@@ -21,6 +21,7 @@ namespace concatenation
         {
             txtResult.Clear();
             txtResult.Text = txtZone1.Text + txtZone2.Text;
+            txtResult.Focus();
         }
 
         private void btnReset_Click(object sender, EventArgs e)
