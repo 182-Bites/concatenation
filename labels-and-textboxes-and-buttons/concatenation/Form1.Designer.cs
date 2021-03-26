@@ -52,9 +52,11 @@ namespace concatenation
             this.txtZone2.Name = "txtZone2";
             this.txtZone2.Size = new System.Drawing.Size(100, 23);
             this.txtZone2.TabIndex = 1;
+            this.txtZone2.TextChanged += new System.EventHandler(this.txtZone2_TextChanged);
             // 
             // txtResult
             // 
+            this.txtResult.Enabled = false;
             this.txtResult.Location = new System.Drawing.Point(148, 108);
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(100, 23);
